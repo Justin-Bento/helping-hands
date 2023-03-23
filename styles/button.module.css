@@ -1,0 +1,38 @@
+.btn_primary {
+  padding: 0.7rem;
+  margin: 0rem;
+  border: none;
+  background-color: hsl(220, 50%, 60%);
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  color: hsl(0, 0%, 90%);
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+.btn_primary:hover {
+  cursor: pointer;
+  background-color: hsla(220, 41%, 40%, 0.8);
+}
+.btn_secondary {
+  padding: 0.7rem;
+  margin: 0rem;
+  border: 1px solid hsl(220, 50%, 60%);
+  background-color: hsla(0, 0%, 0%, 0);
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  color: hsl(220, 50%, 60%);
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+.btn_secondary:hover {
+  cursor: pointer;
+  background-color: hsla(220, 41%, 40%, 0.8);
+}
