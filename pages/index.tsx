@@ -65,7 +65,45 @@ export default function Home() {
         </section>
         {/* Section 01: Hero  */}
         <section className="px-16 py-8">
-          <h2 className="text-4xl font-bold underline">Section 02!</h2>
+          <div className="flex gap-8">
+            <div className="overflow-hidden flex flex-col gap-8">
+              <div className="w-[60rem]">
+                <div className="text-clip overflow-hidden	 rounded-lg bg-gray-100">
+                  <div className="px-4 py-5 sm:p-6">
+                    <p className="text-slate-700 font-semibold capitalize text-lg" aria-label="card-headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p className="text-slate-500 mt-1.5 max-w-prose" aria-label="card-body">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua A cras semper auctor neque vitae. Sed velit dignissim sodales ut eu sem integer. Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[60rem]">
+                <div className="text-clip overflow-hidden	 bg-gray-100 rounded-2xl">
+                  <div className="px-4 py-5 sm:p-6">
+                    <p className="text-slate-700 font-semibold capitalize text-lg" aria-label="card-headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p className="text-slate-500 mt-1.5 max-w-prose" aria-label="card-body">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua A cras semper auctor neque vitae. Sed velit dignissim sodales ut eu sem integer. Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[60rem]">
+                <div className="text-clip overflow-hidden	 bg-gray-100 rounded-2xl">
+                  <div className="px-4 py-5 sm:p-6">
+                    <p className="text-slate-700 font-semibold capitalize text-lg" aria-label="card-headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p className="text-slate-500 mt-1.5 max-w-prose" aria-label="card-body">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua A cras semper auctor neque vitae. Sed velit dignissim sodales ut eu sem integer. Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[60rem]">
+                <div className="text-clip overflow-hidden	 bg-gray-100 rounded-2xl">
+                  <div className="px-4 py-5 sm:p-6">
+                    <p className="text-slate-700 font-semibold capitalize text-lg" aria-label="card-headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p className="text-slate-500 mt-1.5 max-w-prose" aria-label="card-body">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua A cras semper auctor neque vitae. Sed velit dignissim sodales ut eu sem integer. Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative h-[720px] columns-1 w-full">
+              <Image fill quality={40} src="/media/placeholder-image.png" alt="placeholder-image--hero" className="object-center object-cover rounded-3xl" />
+            </div>
+          </div>
         </section>
         {/* Section 01:  */}
         <section className="px-16 py-8">
