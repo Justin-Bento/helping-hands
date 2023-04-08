@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html,body {
+    @apply bg-blue-50
+  }
   .wrapper {
     @apply mx-auto max-w-7xl sm:px-6 lg:px-8;
   }
